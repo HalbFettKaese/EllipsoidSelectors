@@ -8,7 +8,7 @@ To avoid an integer overflow during calculations, the system first detects the g
 ## What this can't do
 * Rotating the area without fully exchanging the axes
 * Detecting the full hitbox of an entity intersecting with the ellipsoid area
-## How to use
+## Usage
 * Scoreboard inputs to set up
   All inputs are written into the `tdh_el:inputs` objective.
   List of fake players to set scores for:
