@@ -2,7 +2,7 @@
 This data pack allows the position of an entity or a position stored in scores to be compared to a ellipsoid area in Minecraft 1.14+
 
 The calculation follows the formula `x²/dx² + y²/dy² + z² + dz² <= 1`.
-All input numbers use a scaling factor of 10, the distance output can't be said to use proper distances but uses a scaling factor of 100.
+All input numbers use a scaling factor of 10, the squared distance output can't be said to use proper distances in all situations but uses a scaling factor of 100.
 
 To avoid an integer overflow during calculations, the system first detects the given position being outside a cuboid area following the sizes of the ellipsoid area. Being outside will result in an output distance of `-1`.
 ## What this can't do
