@@ -19,7 +19,7 @@ To avoid an integer overflow during calculations, the system first detects the g
   * `$dx`
   * `$dy`
   * `$dz`
-    * Set the size of the targeted area.
+    * Set the size of the targeted area. The ellipsoid will expand towards each direction from the center position for the given delta values.
   * `$x2`
   * `$y2`
   * `$z2`
